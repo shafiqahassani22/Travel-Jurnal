@@ -1,0 +1,47 @@
+.navgit{
+    background-color: rgb(204, 101, 101);
+    display: flex;
+    justify-content: center;
+    height:50px;}
+
+    .navgit img{
+     border-radius: 50%;
+     height: 40px;
+     width: 40px;
+     padding-top: 5px;
+     padding-right: 9px;
+
+    }
+    .navgit h4{
+    color:#ffff;
+    padding-bottom: 5px;
+    }
+    .container{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 100px;
+        margin-top:100px ;
+        margin-right: 100px;
+        margin-left: 80px;
+        
+    }
+    .img{    flex: 1;
+       
+    }
+    .img img{
+        height: 300px;
+        width: 200px;
+        margin: 12px,12px;
+        border-radius: 20px;
+    
+    }
+    .text{
+        padding: 50px,50px,50px,50px;
+        flex: 2;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .text a{
+        color: black;
+    }
+    
